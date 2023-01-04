@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Registration Form</title>
+</head>
+<body style="background-color:lightblue">
+    <h1><center><i>Railway Registration Form</i></center></h1>
+    <hr width="1300px;" color="black" size="5"><br>
+    <form>
+        <div>
+            <label for="reservation-quota">Reservation Quota</label>
+            <input type="text" id="reservation" name="reservation quota">
+        </div><br><br>
+        <div>
+            <label for="train-name">Train Name or Number</label>
+            <input type="text or number" id="Train Name" name="Train Name or number" required>
+        </div><br><br>
+        <div>
+            <label for="journey">Journey From</label>
+            <input type="text" id="journey name" name="Journey From" required>
+        </div>
+        <div><br><br>
+            <label for="journey">Journey To</label>
+            <input type="text" id="journey name" name="Journey To" required>
+        </div><br><br>
+        <div>
+            <label for="reservation-type">Reservation Class</label>
+            <select id="reservation-type" name="reservation-reference">
+               <option value=" ">Choose a class reference</option>
+               <option value="First Class AC"> First AC </option>
+               <option value="Second Class AC"> Second Class AC </option>
+               <option value="Third Class AC"> Third Class AC </option>
+               <option value="Sleeper"> Sleeper </option>
+               <option value="2S">2S</option>
+            </select>
+        </div><br><br>
+        <div>
+            <label for="departure">Departure/Journey Date</label>
+            <input type="Datetime-local" id="Test_DatetimrLocal" name="Journey date" required>
+        </div><br>
+        <hr width="1300px;" color="black" size="5"><br>
+        <h2><b>Passenger Details</b></h2> 
+        <div>
+            <label for="name">Name of First Passenger</label>
+            <input type="text" id="name" name="Full Name" required>
+        </div><br><br>
+        <div>
+            <label for ="name">Age of First Passenger</label>
+            <input type="text" id="name" name="Age" required>
+        </div><br><br>
+        
+        <div>
+            <label for="gender">Gender of First Passenger</label>
+                <select id="gender" name="gender">
+                <option value=" ">Select The Gender</option>
+                <option value="Male"> Male</option>
+                <option value="Female"> Female </option>
+                <option value="Children"> Children</option>
+                <option value="Other"> Other</option>
+            </select>
+        </div><br><br>
+        <div>
+            <label for="name">Name of Second Passenger</label>
+            <input type="text" id="name" name="Full Name" required>
+        </div><br><br>
+        <div>
+            <label for ="name">Age of Second Passenger</label>
+            <input type="text" id="name" name="Age" required>
+        </div><br><br> 
+        <div>
+            <label for="gender">Gender of Second Passenger</label>
+                <select id="gender" name="gender">
+                <option value=" ">Select The Gender</option>
+                <option value="Male"> Male</option>
+                <option value="Female"> Female </option>
+                <option value="Children"> Children</option>
+                <option value="Other"> Other</option>
+            </select>
+        </div><br>
+        <hr width="1300px;" color="black" size="5"><br>
+        <h2><b>Contact Details</b></h2>
+        <div>
+            <label for="Mobile number">Mobile Number</label>
+            <input type="text" id="number" name="Mobile number">
+        </div><br><br>
+        <div>
+            <label for="Mobile number">Alternative Mobile Number</label>
+            <input type="text" id="number" name="Mobile number" required>
+        </div><br><br>
+        <div>
+            <label for="Email">E-mail</label>
+            <input type="text" id="name" name="Email" required>
+        </div><br><br>
+    </form>
+    <button type="submit" id="form1" value="Submit">Submit Query</button>
+</body>
+</html>
